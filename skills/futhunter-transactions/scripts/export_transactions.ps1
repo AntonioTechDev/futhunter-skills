@@ -111,4 +111,3 @@ $dates = @($allDates | Sort-Object)
     SourceFirstDate = if ($dates.Count) { $dates[0].ToString('yyyy-MM-dd HH:mm:ss') } else { $null }
     SourceLastDate  = if ($dates.Count) { $dates[-1].ToString('yyyy-MM-dd HH:mm:ss') } else { $null }
 }
-

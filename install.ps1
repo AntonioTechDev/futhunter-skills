@@ -48,4 +48,3 @@ foreach ($item in $selected) {
     Write-Host "Installed $($item.Name) -> $target"
 }
 Write-Host 'Done. Restart Codex to reload installed skills.'
-

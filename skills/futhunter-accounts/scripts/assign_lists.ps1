@@ -64,4 +64,3 @@ foreach ($index in $seen.Keys) {
 }
 [System.IO.File]::Replace($temp, $SettingsPath, $backup)
 Write-Output "Assigned $($assignments.Count) account indices. Reopen FutHunter and verify each requested row."
-

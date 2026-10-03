@@ -92,4 +92,3 @@ foreach ($name in $created) {
 }
 [System.IO.File]::Replace($temp, $SettingsPath, $backup)
 Write-Output "Created $($created.Count) lists. Reopen FutHunter and inspect each list."
-

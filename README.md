@@ -4,8 +4,10 @@ Raccolta di skill riutilizzabili per Codex, pensata sia per persone sia per agen
 
 ## Skill incluse
 
-- `futbin-futhunter-player-lists`: crea squadre Futbin, liste FutHunter e assegna o avvia account.
-- `futhunter-stop-accounts`: arresta tutti gli account FutHunter o una selezione verificata.
+- `futbin-squad-builder`: crea e verifica squadre Futbin; non gestisce l'import in FutHunter.
+- `futhunter-accounts`: avvia, ferma e gestisce account selezionati o tutti, inclusi resell, pack, preview e SBC.
+- `futhunter-lists`: crea, importa, esporta e verifica liste Snipe o Global Bid singole/multiple.
+- `futhunter-proxies`: importa, controlla e assegna proxy manuali, CSV o IPRoyal.
 - `futhunter-transactions`: esporta e controlla le transazioni FutHunter in CSV.
 - `writing-for-agents`: linee guida per scrivere skill e documenti destinati agli agenti.
 
@@ -26,5 +28,4 @@ Ogni skill vive in `skills/<nome>/` e contiene almeno `SKILL.md`. Eventuali file
 
 ## Contribuire
 
-Mantieni ogni skill autonoma, evita credenziali e dati personali, e verifica gli script prima del commit. Quando la raccolta verrà resa pubblica, aggiungi una licenza esplicita e una breve guida ai contributi.
-
+Mantieni ogni skill autonoma, evita credenziali e dati personali, e verifica gli script prima del commit. Le automazioni XML richiedono FutHunter chiuso, creano un backup e devono essere ricontrollate nell'interfaccia dopo ogni aggiornamento dell'app. Quando la raccolta verrà resa pubblica, aggiungi una licenza esplicita e una breve guida ai contributi.
