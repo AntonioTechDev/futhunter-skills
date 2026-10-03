@@ -4,6 +4,8 @@ Una raccolta di skill che permette a Codex di operare su FutHunter e Futbin segu
 
 > La repository non contiene account, password, token, proxy o configurazioni personali.
 
+Se questo progetto ti è utile, supportane lo sviluppo lasciando una ⭐ alla repository: aiuta altre persone a trovarlo e incoraggia la creazione di nuove skill.
+
 ## Requisiti
 
 Prima di iniziare servono:
