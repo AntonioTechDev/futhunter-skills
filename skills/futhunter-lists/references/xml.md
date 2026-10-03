@@ -19,4 +19,6 @@ Lo [script Snipe](../scripts/create_lists.ps1) accetta un JSON ordinato di liste
 
 Lo [script Global Bid](../scripts/create_global_bid_lists.ps1) accetta un JSON ordinato con `listName` e `filters`. Clona un filtro Global Bid creato dalla UI nella stessa versione, forza `AutoBuyer=false`, `GlobalBids=true`, `GlobalSniping=false` e aggiorna soltanto i campi dichiarati nel manifest. Non usa una lista Snipe come modello.
 
+Lo [script per i tipi avanzati](../scripts/create_advanced_lists.ps1) accetta lo stesso contenitore `listName`/`filters` e richiede `-Mode GlobalSniping59th` oppure `-Mode AutoBidder`. Clona soltanto un filtro pilota creato dalla UI con lo stesso tipo. Per Global Sniping forza `GlobalSniping=true` e disattiva gli altri motori; per AutoBidder forza `AutoBidder=true`, `GlobalBids=true`, `AutoBuyer=false` e `GlobalSniping=false`, combinazione osservata nei filtri salvati dall'app.
+
 Prima di sostituire il file, ricarica il temporaneo e confronta numero di liste, filtri e identificativi. Dopo il riavvio controlla nomi, tipi, versioni e prezzi nella UI.

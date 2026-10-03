@@ -34,6 +34,15 @@ Un filtro Global Bid osservato usa `GlobalBids=true`, `AutoBuyer=false` e `Globa
 
 Per una lista multi-filtro crea prima la lista, poi aggiungi un filtro per criterio/nazione nell'ordine richiesto. Riapri ogni filtro dopo il salvataggio. Clona soltanto un filtro UI dello stesso tipo e sovrascrivi i campi richiesti. Il valore anomalo `RatingTo=1` osservato nel filtro Brasile non è un modello: convalida sempre gli intervalli nella UI.
 
+## Global Sniping 59th e AutoBidder
+
+Il form `Edit Filter` di FutHunter 18.1.2 mostra cinque tipi distinti e mutuamente selezionabili: `Sniping`, `AutoBidder`, `Global Bids`, `Global Sniping 59th` e `Coins Transfer`. Non trattare Global Sniping come una variante nominale di Sniping e non trattare AutoBidder come un semplice Global Bid: seleziona il pulsante esatto e verifica il tipo dopo il salvataggio.
+
+- **Global Sniping 59th:** usa criteri globali come rarità, qualità, rating, posizione, nazionalità, campionato, club e PlayStyles; completa prezzi, profitto minimo, limite offerte e i parametri `GS_*` mostrati dalla versione corrente.
+- **AutoBidder:** usa gli stessi criteri globali, ma completa anche massimo acquisto, scadenza minima, limiti watchlist, tempi di inserimento/offerta, provider prezzo, limiti dopo le offerte e permanenza in watchlist.
+
+Il cambio tipo può essere bloccato quando l'account è in esecuzione. Non fermare un account senza richiesta esplicita: usa un account già inattivo oppure prepara un filtro pilota quando l'operatore può metterlo in pausa. Per i nomi XML e la procedura offline leggi [global-sniping-auto-bidder.md](global-sniping-auto-bidder.md).
+
 ## Import ed export
 
 Le risorse disponibili includono `Importa Filtri`, `Nuova Lista Filtri da Futbin-FutGG`, `Esporta Filtri Selezionati` ed `Esporta tutti i Filtri`.
