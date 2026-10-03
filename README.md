@@ -1,6 +1,6 @@
-# FutHunter Skills for Codex
+# FutHunter Skills
 
-Una raccolta di skill che permette a Codex di operare su FutHunter e Futbin seguendo procedure verificate. Le skill aiutano a creare liste, gestire account e proxy, esportare transazioni e costruire squadre Futbin senza dover ripetere manualmente ogni passaggio.
+Una raccolta di skill che permette a Codex o Claude di operare su FutHunter e Futbin seguendo procedure verificate. Le skill aiutano a creare liste, gestire account e proxy, esportare transazioni e costruire squadre Futbin senza dover ripetere manualmente ogni passaggio.
 
 > La repository non contiene account, password, token, proxy o configurazioni personali.
 
@@ -11,7 +11,7 @@ Se questo progetto ti è utile, supportane lo sviluppo lasciando una ⭐ alla re
 Prima di iniziare servono:
 
 - un PC Windows;
-- l'app Codex installata;
+- l'app Codex o Claude codeinstallata;
 - FutHunter già installato e configurato per le operazioni che lo richiedono;
 - PowerShell, già incluso in Windows.
 
